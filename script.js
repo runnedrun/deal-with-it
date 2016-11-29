@@ -1,6 +1,4 @@
-var dealt = false;
-
-var button = $(".deal-with-it-button")
+var button = $()
 
 $(function() {
   button.click(dealWithIt)
