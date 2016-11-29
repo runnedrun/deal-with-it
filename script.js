@@ -7,17 +7,5 @@ $(function() {
 })
 
 function dealWithIt() {
-  if (dealt) {
-    $("#glasses").css({"top":  "-20px"})		
-
-    dealt = false
-    button.val("Deal With It")
-  } else {
-    $("#glasses").animate({
-      "top":  250
-    }, 1500)
-
-    dealt = true
-    button.val("Reset")
-  }
+    $("#glasses").animate({}, 1500)
 }
